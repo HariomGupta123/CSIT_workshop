@@ -1,0 +1,14 @@
+.container{
+    height: 420px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(197, 142, 142);
+    border-radius: 5px;
+
+}
+.img1{
+    height: 200px;
+    width: 380px;
+    border: 1px blue solid;
+    border-radius: 5px;
+}
