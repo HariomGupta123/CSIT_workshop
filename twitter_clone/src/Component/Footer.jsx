@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 const Footer=()=>{
     const [count,setCount]=useState(0);
     const add=()=>{
@@ -9,11 +9,11 @@ const Footer=()=>{
     }
     const [like,setLike]=useState(false);
     const toggle=()=>{
-        setLike(!like)
-        
-
-       
+        setLike(!like)  
     }
+    useEffect(()=>{
+        console.log(`the count ${count}`);
+    },[count])
     
     return<>
      <div className="tweet-footer">
